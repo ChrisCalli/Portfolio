@@ -42,44 +42,47 @@ body {
 }
 */
 .boxWrapper {
-	width: 40%;
+	width: 50%;
 	height: 50%;
 	padding: 2%;
 	position: absolute;
-	top: 10%;
-	left: 10%;
-	border-top: 5px solid red;
-	border-left: 3px solid red;
+	top: 5%;
+	right: 5%;
+	border-top: 3px solid red;
+	border-right: 3px solid red;
 }
 #textWrapper {
-	width: 40%;
+	width: 45%;
 	height: 50%;
 	padding: 2%;
 	position: absolute;
-	top: 30%;
-	left: 30%;
+	top: 40%;
+	left: 15%;
 }
-
-#hamburgerNav {
-	margin: 20px;
-	color: white;
-}
-
 .box {
 	height: 30%;
 	width: 30%;
 	margin: 2%;
+	float: right;
+	color: rgb(94, 94, 94);
 	display: inline-block;
 	border: 0.5px solid black;
+	border-radius: 5px;
 	background-color: rgb(31, 31, 31);
+	line-height: 100px;
+	text-align: center;
 }
-
+.box:hover {
+	background-color: blue;
+	color: white;
+	vertical-align: middle;
+}
 #welcomeText {
 	color: white;
 	font-size: 50px;
 	font-weight: bold;
 	text-align: left;
-	border-bottom: 0.5px solid grey;
+	border-bottom: 0.5px solid red;
 }
 #welcomeTitle {
 	color: lightgrey;
