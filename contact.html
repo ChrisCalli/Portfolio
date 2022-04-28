@@ -17,7 +17,7 @@
 	<!-- Load the favicon, stylesheets and scripts here. Defer the scripts till the page loads. 
 	<script src="scripts/main.js" defer></script>-->
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
-	<link rel="stylesheet" href="stylesheets/main.css">
+	<link rel="stylesheet" href="stylesheets/pages.css">
 	
 </head>
 
@@ -34,28 +34,42 @@
 <!-- ----------------------------------------------------- NAV ----------------------------------------------------------------- -->
 
 <nav>
-	<!-- create the nav menu -->
+    <!-- create the back menu -->
 	<div class="boxWrapper">
-		<div id="portfolio" class="box"  onclick="document.location='portfolio.html'">Portfolio</div>
-		<div id="about" class="box" onclick="document.location='about.html'">About</div>
-		<div id="contact" class="box" onclick="document.location='contact.html'">Contact</div>
+		<div id="contactBackArrow" class="box" onclick="document.location='index.html'">&#x1f818;</div>
 	</div>
 </nav>
 
 <!-- --------------------------------------------------- CONTENT ----------------------------------------------------------------- -->
 		
 <main>
-	<!-- Create the main text in the center of the page -->
-	<div id="textWrapper">
-		<div id="welcomeText">Christopher Calliara</div>
-		<div id="welcomeTitle">Front end developer</div>
+	<!-- Create the page content -->
+	<div id="contactWrapper" class="textWrapper">
+		<div class="contentHeading">Contact</div>
+		<div class="contentWrapper">
+			<br>
+			<div class="contentTextBox">
+				<div class="contentLabel">Contact details</div>
+				<div class="contentText">
+					<pre>
+
+	&#x1f3d8;  49A Oak street, Gisborne
+					
+	&#x1f57e;  028 422 0964
+					
+	&#x1f582;  chris.calliara@gmail.com
+					</pre>
+				</div>
+			</div>
+			
+		</div>
 	</div>
+	
 </main>
 
 <!-- --------------------------------------------------- FOOTER ----------------------------------------------------------------- -->
 
 <footer>
-		<!-- Create the footer information -->
  		<div id="footerText">&#xa9; 2022 - All rights reserved.</div>	
 </footer>
 	
